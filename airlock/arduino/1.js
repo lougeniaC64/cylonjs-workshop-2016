@@ -12,6 +12,6 @@ cylon.robot({
   work: function(my) {
     setInterval(function() {
       my.blue.toggle();
-    }, 1000);
+    }, 10000);
   }
 }).start();
